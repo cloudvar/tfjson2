@@ -1,8 +1,8 @@
 tfjson2 (export Terraform plan as JSON) & OPA (Open Policy Agent)
 ==========
 
-1. tfjson2:
--------
+tfjson2:
+--------
 
 Running with Docker
 -------------------
@@ -38,8 +38,8 @@ Run against the container
 docker run -it -v /tmp/terraform.plan:/tmp/terraform.plan cloudvar/tfjson_with_open-policy-agent:latest tfjson2 --plan /tmp/terraform.plan > /tmp/plan.json
 ```
 
-2. Open Policy Agent:
------------------
+Open Policy Agent:
+------------------
 
 All OPA policies reside under policies directory
 
